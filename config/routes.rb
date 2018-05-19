@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'application#wx'
+  root 'wechats#index'
+  resources :wechats
 end
